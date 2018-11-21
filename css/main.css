@@ -1969,7 +1969,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff11fc;
+  background: #2153ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2897,7 +2897,7 @@ pre .javascript .function {
 .header-inner,
 .container .main-inner,
 .footer-inner {
-  background: #ffb6c1;
+  background: #d3d3d3;
 }
 @media (max-width: 767px) {
   .header-inner,
