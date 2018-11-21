@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>码农终结者</title>
   
-  <subtitle>不惧山海，不怕bug</subtitle>
+  <subtitle>不畏山海，何惧bug</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://www.52wyl.cn/"/>
   <updated>2018-11-20T05:16:26.909Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://www.52wyl.cn/</id>
   
   <author>
     <name>Mrs feng</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/11/20/hello-world/"/>
-    <id>http://yoursite.com/2018/11/20/hello-world/</id>
+    <link href="http://www.52wyl.cn/2018/11/20/hello-world/"/>
+    <id>http://www.52wyl.cn/2018/11/20/hello-world/</id>
     <published>2018-11-20T05:16:26.909Z</published>
     <updated>2018-11-20T05:16:26.909Z</updated>
     
