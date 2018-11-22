@@ -1969,7 +1969,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2153ff;
+  background: #00faff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2745,7 +2745,7 @@ pre .javascript .function {
 .header {
   position: relative;
   margin: 0 auto;
-  width: 960px;
+  width: 1150px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -2805,7 +2805,7 @@ pre .javascript .function {
   }
 }
 .container .main-inner {
-  width: 960px;
+  width: 1150px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2821,7 +2821,7 @@ pre .javascript .function {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 700px;
+  width: calc(100% - 260px);
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
@@ -2894,17 +2894,16 @@ pre .javascript .function {
   padding-left: 0;
   padding-right: 260px;
 }
-.header-inner,
-.container .main-inner,
-.footer-inner {
+.container .main-inner {
   background: #d3d3d3;
 }
 @media (max-width: 767px) {
-  .header-inner,
-  .container .main-inner,
-  .footer-inner {
+  .container .main-inner {
     width: auto;
   }
+}
+.footer-inner {
+  background: #fff;
 }
 .site-brand-wrapper {
   position: relative;
