@@ -334,7 +334,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-30T21:18:33+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-30T21:29:30+08:00">
                 2018-11-30
               </time>
             
@@ -405,7 +405,7 @@
       
         
           
-            <p>主要内容：环境virtualenv，django安装，项目搭建，路由配置，模型迁移，用户信息添加<br>一、virtualenv虚拟环境<br>    django项目中最好实现代码和环境分开，分别用workspace文件夹（存放代码）和env文件夹（配置虚拟环境）<br>    回顾学习python基础的时候，在pycharm中建立项目时，用的软件自己建立好的虚拟环境：<img src="/root/blog/source/images/day01_1.png" alt="enter description here"><br>    而在我们大家django的时候最好自己在命令行中建立相应文件夹和配置环境（万一你去的公司不用pycharm或者其他可视化软件呢对吧）<br>    步骤：<br>    1.进入命令行模式（win+R输入CMD），这个不会的就自己百度了哈<br>    2.输入 cd E： 进入E盘根目录（根据自己喜好，但最好在根目录下后面会方便很多，trust me！）<br>    3.输入： mkdir django 新建django文件夹<br>        cd django 进入这个文件夹新建workspace和env<br>        cd workspace进入workspace文件夹新建 7.django 文件夹存放项目代码（文件夹名自己随便定义）<br>    4.virtualenv环境创建<br>        （1）pip install virtualenv<br>        （2）virtualenv –no-site-packages -p python路径 djenv1807        （djenv1807文件夹名自己定义如果你的系统只有python3.6就只需要输入：virtualenv –no-site-packages djenv1807<br>           （3）激活虚拟环境<br>                进入：cd djenv1807/script<br>                执行：activate         （成功执行前面会显示：（djenv1807））<br>                （退出：deactivate这里就别退出了，要在激活的状态下建立项目）</p>
+            <p>主要内容：环境virtualenv，django安装，项目搭建，路由配置，模型迁移，用户信息添加<br>一、virtualenv虚拟环境<br>    django项目中最好实现代码和环境分开，分别用workspace文件夹（存放代码）和env文件夹（配置虚拟环境）<br>    回顾学习python基础的时候，在pycharm中建立项目时，用的软件自己建立好的虚拟环境：<img src="/images/day01_1.png" alt=""><br>    而在我们大家django的时候最好自己在命令行中建立相应文件夹和配置环境（万一你去的公司不用pycharm或者其他可视化软件呢对吧）<br>    步骤：<br>    1.进入命令行模式（win+R输入CMD），这个不会的就自己百度了哈<br>    2.输入 cd E： 进入E盘根目录（根据自己喜好，但最好在根目录下后面会方便很多，trust me！）<br>    3.输入： mkdir django 新建django文件夹<br>        cd django 进入这个文件夹新建workspace和env<br>        cd workspace进入workspace文件夹新建 7.django 文件夹存放项目代码（文件夹名自己随便定义）<br>    4.virtualenv环境创建<br>        （1）pip install virtualenv<br>        （2）virtualenv –no-site-packages -p python路径 djenv1807        （djenv1807文件夹名自己定义如果你的系统只有python3.6就只需要输入：virtualenv –no-site-packages djenv1807<br>           （3）激活虚拟环境<br>                进入：cd djenv1807/script<br>                执行：activate         （成功执行前面会显示：（djenv1807））<br>                （退出：deactivate这里就别退出了，要在激活的状态下建立项目）</p>
 <p>   5.安装django，pymysql<br>    安装：pip install django==1.11<br>               pip install pymysql<br>    卸载：pip uninstall django<br>    6.创建项目（在虚拟环境激活的状态下）<br>        （1）进入workspace中的7.django文件夹中，输入：django-admin startproject day01 创建名为day01项目<br>        （2）打开pycharm（其他软件也可以，这里用pycharm举例），在左上角点击打开文件找到项目路径：</p>
 <pre><code>（3）左上角点击setting选择你的项目配置虚拟环境：
 ![enter description here](./images/9]BD~5(B7HEEKK}~(9GNM]E.png)
