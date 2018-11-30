@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.52wyl.cn/"/>
-  <updated>2018-11-30T13:00:10.380Z</updated>
+  <updated>2018-11-30T13:10:18.993Z</updated>
   <id>http://www.52wyl.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ajango基础--安装与环境配置（windows系统下）</title>
+    <link href="http://www.52wyl.cn/2018/11/30/day01_1/"/>
+    <id>http://www.52wyl.cn/2018/11/30/day01_1/</id>
+    <published>2018-11-30T13:10:18.993Z</published>
+    <updated>2018-11-30T13:10:18.993Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;主要内容：环境virtualenv，django安装，项目搭建，路由配置，模型迁移，用户信息添加&lt;br&gt;一、virtualenv虚拟环境&lt;br&gt;    django项目中最好实现代码和环境分开，分别用workspace文件夹（存放代码）和env文件夹（配置虚拟环境）&lt;br&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="django，virtualenv" scheme="http://www.52wyl.cn/tags/django%EF%BC%8Cvirtualenv/"/>
+    
+  </entry>
   
   <entry>
     <title>ajango基础--安装与环境配置（windows系统下）</title>
